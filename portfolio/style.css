@@ -54,15 +54,17 @@ main p {
 }
 
 .selfie{
-    width: 2160px;
+    width: 1080px;
     height: auto;
     aspect-ratio: 1/1;
-    top: -180px;
+    top: 0px;
     overflow: hidden;
     position: relative;
     display: flex;
     align-content: center;
     border-radius: 50%;
+    position-anchor: initial;
+    margin-left: 20px;
 }
 
 .selfie img {
@@ -101,4 +103,33 @@ a:hover {
     text-decoration: underline;
     color: #ffffff;
     transition: .33s;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer > section {
+    padding: 14px;
+}
+
+footer > section:last-child {
+    display: flex;
+    padding: 14px;
+    background: #020617;
+    align-items: center;
+    justify-content: space-around;
+}
+.footerLink {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
+}
+
+@media (min-width: 540px) {
+    footer>section:last-child {
+        flex-direction: row;
+    }
 }
