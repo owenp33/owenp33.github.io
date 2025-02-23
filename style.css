@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: rgb(205, 205, 205);
 }
 
 body {
@@ -121,7 +122,6 @@ a:hover {
 p {
     margin: 14px 0;
     text-align: left;
-    color: rgb(205, 205, 205) !important;
 }
 
 /* FOOTER */
