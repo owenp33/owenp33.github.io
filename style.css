@@ -8,6 +8,13 @@
     padding: 0;
     box-sizing: border-box;
     color: rgb(205, 205, 205);
+    text-decoration-color: #1b2236;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    transition: .5s;
 }
 
 body {
@@ -111,12 +118,6 @@ a {
     height: 100%;
     object-fit: cover;
     position: absolute;
-}
-
-a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-    transition: .5s;
 }
 
 p {
