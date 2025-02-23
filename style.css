@@ -67,9 +67,9 @@ i {
 }
 
 .about {
-    color: rgb(205, 205, 205);
     margin: 14px 0;
     text-align: left;
+    color: rgb(205, 205, 205) !important;
 }
 
 .top {
