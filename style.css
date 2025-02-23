@@ -41,6 +41,12 @@ header {
     max-width: 960px;
 }
 
+p {
+    margin: 14px 0;
+    text-align: left;
+    color: rgb(205, 205, 205) !important;
+}
+
 h1, h4 {
     font-size: 28px;
     color: whitesmoke;
@@ -64,12 +70,6 @@ h1, h2, h3 {
 
 i {
     color: rgb(100, 115, 130);
-}
-
-.about {
-    margin: 14px 0;
-    text-align: left;
-    color: rgb(205, 205, 205) !important;
 }
 
 .top {
