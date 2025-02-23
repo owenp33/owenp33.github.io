@@ -38,6 +38,7 @@ header {
 h1, h4 {
     font-size: 28px;
     color: whitesmoke;
+    font-weight: 700;
 }
 
 h2 {
@@ -55,9 +56,12 @@ h1, h2, h3 {
     border-color: transparent;
 }
 
+a {
+    text-decoration: none;
+}
+
 .top {
     display: flex;
-    
 }
 
 .greyLink {
@@ -90,12 +94,6 @@ h1, h2, h3 {
     max-width: 960px;
 }
 
-p {
-    margin: 14px 0;
-    text-align: left;
-    color: rgb(205, 205, 205);
-}
-
 .selfie {
     width: 720px;
     height: auto;
@@ -118,6 +116,12 @@ a:hover {
     color: #ffffff;
     text-decoration: underline;
     transition: .5s;
+}
+
+p {
+    margin: 14px 0;
+    text-align: left;
+    color: rgb(205, 205, 205);
 }
 
 /* FOOTER */
@@ -150,7 +154,3 @@ footer > section:last-child {
         flex-direction: row;
     }
 } */
-
-a {
-    text-decoration: none;
-}
