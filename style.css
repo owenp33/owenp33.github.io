@@ -16,10 +16,6 @@ p {
     text-align: left;
 }
 
-i {
-    color: rgb(68, 78, 88);
-}
-
 a:hover {
     color: #ffffff;
     text-decoration: underline;
@@ -70,6 +66,10 @@ h3 {
 h1, h2, h3 {
     border: 3px solid green;
     border-color: transparent;
+}
+
+i {
+    color: rgb(68, 78, 88);
 }
 
 .icon{
