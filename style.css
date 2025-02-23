@@ -64,10 +64,6 @@ h1, h2, h3 {
     border-color: transparent;
 }
 
-a {
-    text-decoration: none;
-}
-
 .top {
     display: flex;
 }
