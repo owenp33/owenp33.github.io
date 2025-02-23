@@ -7,8 +7,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: rgb(205, 205, 205);
     text-decoration-color: #1b2236;
+}
+
+p {
+    color: rgb(205, 205, 205);
+    margin: 14px 0;
+    text-align: left;
 }
 
 a:hover {
@@ -79,7 +84,7 @@ h1, h2, h3 {
 
 .icon{
     font-size: 24px;
-    color: rgb(68, 78, 88);
+    color: rgb(68, 78, 88) !important;
 }
 
 /* BODY */
@@ -108,18 +113,13 @@ h1, h2, h3 {
     border-radius: 50%;
     overflow: hidden;
 }
-
+/* 
 .selfie img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     position: absolute;
-}
-
-p {
-    margin: 14px 0;
-    text-align: left;
-}
+} */
 
 /* FOOTER */
 
