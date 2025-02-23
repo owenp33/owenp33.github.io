@@ -10,12 +10,6 @@
     text-decoration-color: #1b2236;
 }
 
-p {
-    color: rgb(205, 205, 205);
-    margin: 14px 0;
-    text-align: left;
-}
-
 a:hover {
     color: #ffffff;
     text-decoration: underline;
@@ -69,15 +63,21 @@ h1, h2, h3 {
 }
 
 i {
-    color: rgb(68, 78, 88);
+    color: rgb(100, 115, 130);
 }
 
-.icon{
-    font-size: 24px;
+.about {
+    color: rgb(205, 205, 205);
+    margin: 14px 0;
+    text-align: left;
 }
 
 .top {
     display: flex;
+}
+
+.icon{
+    font-size: 24px;
 }
 
 .greyLink {
@@ -88,8 +88,6 @@ i {
 .headal {
     margin-top: 5px;
 }
-
-
 
 /* BODY */
 
