@@ -100,6 +100,7 @@ h1, h2, h3 {
 }
 
 .body {
+    gap: 18px;
     align-items: center;
     margin: 20px auto;
     display: flex;
@@ -108,7 +109,7 @@ h1, h2, h3 {
     width: 720px;
     height: auto;
     aspect-ratio: 1/1;
-    /* position: relative; */
+    position: relative;
     display: flex;
     top: -25px;
     border-radius: 50%;
