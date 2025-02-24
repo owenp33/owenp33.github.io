@@ -106,7 +106,7 @@ h1, h2, h3 {
 }
 
 .about, h4 {
-    margin-right: 16px;
+    margin-right: 16px !important;
 }
 
 .selfie {
