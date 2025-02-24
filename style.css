@@ -100,11 +100,15 @@ h1, h2, h3 {
 }
 
 .body {
-    gap: 18px;
     align-items: center;
     margin: 20px auto;
     display: flex;
 }
+
+.about, h4 {
+    margin-right: 16px;
+}
+
 .selfie {
     width: 720px;
     height: auto;
