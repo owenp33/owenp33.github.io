@@ -19,10 +19,9 @@ a:hover {
 
 body {
     margin: 0;
-    background: #1b2236;
-    /* color: white; */
+    background: #1b2236;    
+    display: flex;
     min-height: 100vh;
-    display:flex;
     flex-direction: column;
     font-family: 'ranade', sans-serif, 'Times New Roman', Times, serif;
 }
@@ -32,13 +31,11 @@ body {
 header {
     width: 90%;
     margin: 20px auto;
-    display: flex;
     justify-content: space-between;
     padding: 8px;
     font-family: 'ranade';
     display: flex;
     align-items: center;
-    gap: 10px;
     max-width: 960px;
 }
 
@@ -47,7 +44,6 @@ header {
     text-align: left;
     color: rgb(205, 205, 205) !important;
     font-size: 18px;
-    font-family: 'ranade', sans-serif, 'Times New Roman', Times, serif;
 }
 
 h1, h4 {
@@ -95,19 +91,18 @@ h1, h2, h3 {
 /* BODY */
 
  main{
-    width: 90%;
-    margin: 20px auto;
-    justify-content: space-between;
-    padding: 8px;
-    align-items: center;
-    font-family: 'ranade';
-    display: flex;
-    gap: 10px;
-    font-size: 18px;
-    padding: 8px;
-    max-width: 960px;
+    flex-grow: 1;
 }
 
+.body {
+    padding: 8px;
+    gap: 10px;
+    width: 90%;
+    margin: 20px auto;
+    align-items: center;
+    display: flex;
+    max-width: 960px;
+}
 .selfie {
     width: 720px;
     height: auto;
@@ -129,21 +124,17 @@ h1, h2, h3 {
 
 footer {
     bottom: 0;
-    left: 0;
     width: 100%;
-    position: absolute;
+    margin-top: 4px;
     display: flex;
     flex-direction: column;
     background: #020617;
-    justify-content: space-around;
-    margin: 0 auto;
     align-items: center;
     padding-bottom: 14px;
 }
 
 .reference {
     display: flex;
-    justify-content: center;
     cursor: pointer;
     padding: 10px 0;
 }
@@ -162,7 +153,6 @@ footer {
 h5 {
     font-size: 14px;
     margin-top: 2px;
-    font-family: 'ranade', sans-serif, 'Times New Roman', Times, serif;
 }
 
 p {
