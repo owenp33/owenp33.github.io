@@ -40,7 +40,6 @@ header {
 }
 
 .about {
-    margin: 14px 0;
     text-align: left;
     color: rgb(205, 205, 205) !important;
     font-size: 18px;
@@ -101,11 +100,11 @@ h1, h2, h3 {
 
 .body {
     align-items: center;
-    margin: 20px auto;
     display: flex;
 }
 
 .about, h4 {
+    margin-bottom: 14px;
     margin-right: 16px !important;
 }
 
