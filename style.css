@@ -165,11 +165,13 @@ p {
         margin: 10px auto;
     }
     h2 {
-        font-size: 14px;
-        margin-top: 5px;
+        font-size: 12px;
     }
-    h4 {
-        font-size: 21px;
+    h1, h4 {
+        font-size: 20px;
+    }
+    .center {
+        gap: 10px;
     }
     .selfie {
         width: 0;
