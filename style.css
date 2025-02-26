@@ -18,7 +18,6 @@ a:hover {
 }
 
 body {
-    margin: 0;
     background: #1b2236;    
     display: flex;
     min-height: 100vh;
@@ -31,7 +30,6 @@ body {
 header {
     width: 90%;
     margin: 20px auto;
-    justify-content: space-between;
     padding: 8px;
     font-family: 'ranade';
     display: flex;
@@ -56,22 +54,20 @@ h2 {
     font-weight: 600;
 }
 
-h3 {
-    font-size: 18px;
-    font-weight: 500;
-}
-
-h1, h2, h3 {
+h1, h2 {
     border: 3px solid green;
     border-color: transparent;
 }
 
-.icon {
-    color: rgb(100, 115, 130);
+.right {
+    align-items:start;
+    display: flex;
 }
 
-.top {
+.centerTop {
     display: flex;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .icon{
@@ -90,8 +86,8 @@ h1, h2, h3 {
 /* BODY */
 
  main{
-    flex-grow: 1;
     display:inline-block;
+    flex-grow: 1;
     padding: 16px;
     width: 90%;
     max-width: 960px;
@@ -110,7 +106,7 @@ h1, h2, h3 {
 
 .selfie {
     width: 720px;
-    height: auto;
+    max-width: 720px;
     aspect-ratio: 1/1;
     position: relative;
     display: flex;
@@ -166,4 +162,32 @@ p {
 
 .linkedIn {
     color: #3d99f5;
+}
+
+@media (max-width: 720px){
+    .selfie {
+        width: 0;
+    }
+}
+
+@media (max-width: 600px){
+    header {
+        margin: 10px auto;
+    }
+    h2 {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    h4 {
+        font-size: 21px;
+    }
+    .selfie {
+        width: 0;
+    }
+    .about {
+        font-size: 15px;
+    }
+    .credit {
+        font-size: 12px;
+    }
 }
