@@ -180,10 +180,11 @@ p {
         font-size: 15px;
         margin-right: 0;
     }
-    .credit {
-        font-size: 12px;
-    }
     footer {
         height: 120px;
+    }
+    .credit {
+        font-size: 12px;
+        margin-top: 10px;
     }
 }
