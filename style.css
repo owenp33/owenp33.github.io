@@ -97,7 +97,7 @@ h1, h2 {
 
 .about, h4 {
     margin-bottom: 14px;
-    margin-right: 16px !important;
+    margin-right: 16px;
 }
 
 .selfie {
@@ -176,6 +176,7 @@ p {
     }
     .about {
         font-size: 15px;
+        margin-right: 0;
     }
     .credit {
         font-size: 12px;
