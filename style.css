@@ -30,6 +30,7 @@ body {
 header {
     width: 90%;
     margin: 20px auto;
+    justify-content: space-between;
     padding: 8px;
     font-family: 'ranade';
     display: flex;
@@ -86,7 +87,7 @@ h1, h2 {
 /* BODY */
 
  main{
-    display:inline-block;
+    /* display: inline-block; */
     flex-grow: 1;
     padding: 16px;
     width: 90%;
@@ -164,13 +165,7 @@ p {
     color: #3d99f5;
 }
 
-@media (max-width: 720px){
-    .selfie {
-        width: 0;
-    }
-}
-
-@media (max-width: 600px){
+@media (max-width: 700px){
     header {
         margin: 10px auto;
     }
