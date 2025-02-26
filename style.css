@@ -183,4 +183,7 @@ p {
     .credit {
         font-size: 12px;
     }
+    footer {
+        height: 120px;
+    }
 }
