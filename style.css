@@ -30,12 +30,13 @@ body {
 header {
     width: 90%;
     margin: 20px auto;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 8px;
     font-family: 'ranade';
-    display: flex;
-    align-items: center;
     max-width: 960px;
+    flex-wrap: nowrap;
 }
 
 .about {
@@ -53,6 +54,7 @@ h1, h4 {
 h2 {
     font-size: 20px;
     font-weight: 600;
+    color: lightgrey;
 }
 
 h1, h2 {
@@ -61,27 +63,20 @@ h1, h2 {
 }
 
 .right {
-    align-items:start;
     display: flex;
+    align-items:start;
 }
 
-.centerTop {
+.center {
     display: flex;
-    margin: 0 auto;
+    align-items: center;
     text-align: center;
+    gap: 20px;
+    margin-top: 5px;
 }
 
 .icon{
     font-size: 24px;
-}
-
-.greyLink {
-    color: lightgrey;
-    margin: 0 8px;
-}
-
-.headal {
-    margin-top: 5px;
 }
 
 /* BODY */
