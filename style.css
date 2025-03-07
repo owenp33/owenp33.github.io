@@ -27,14 +27,6 @@ body {
 
 /* HEADER */
 
-header:hover {
-    width: 90%;
-    padding: 28px 8px;
-    margin: 0 auto;
-    background: #151b2b; 
-    transition: 0.25s;
-}
-
 header {
     width: 90%;
     margin: 20px auto;
@@ -45,6 +37,14 @@ header {
     font-family: 'ranade';
     max-width: 960px;
     flex-wrap: nowrap;
+}
+
+header:hover {
+    width: 90%;
+    padding: 28px 8px;
+    margin: 0 auto;
+    background: #151b2b; 
+    transition: 0.25s;
 }
 
 h1 {
