@@ -48,10 +48,13 @@ header {
 }
 
 h1 {
-    padding: 2px;
+    padding: 3px;
     background-color: #0c101a;
     border-radius: 50%;
+}
 
+h1.left {
+    text-decoration-color: #0c101a;
 }
 
 h1, h4 {
