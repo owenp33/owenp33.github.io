@@ -89,6 +89,11 @@ header:hover {
     transition: 0.25s;
 }
 
+.main:hover {
+    text-decoration-color: transparent !important;
+    text-decoration: transparent;
+}
+
 /* BODY */
 
 main {
