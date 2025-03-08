@@ -7,14 +7,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration-color: #1b2236;
     /* border: 1px solid green; */
 }
 
-a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-    transition: .5s;
+a {
+    text-decoration: transparent;
+    padding:0;
 }
 
 body {
@@ -41,8 +39,6 @@ header {
 h1 {
     background-color: #0c101a;
     border-radius: 50%;
-    text-decoration-color: transparent;
-    text-decoration: none;
     margin-left: 12px;
 }
 
@@ -89,9 +85,9 @@ header:hover {
     transition: 0.25s;
 }
 
-.main:hover {
-    text-decoration-color: transparent !important;
-    text-decoration: transparent;
+.main {
+    text-decoration: none;
+    text-decoration-color: transparent;
 }
 
 /* BODY */
@@ -157,6 +153,7 @@ footer {
 }
 
 .footerLink {
+    display: flex;
     margin: 0 8px;
     color: white;
 }
@@ -164,6 +161,13 @@ footer {
 h5 {
     font-size: 14px;
     margin-top: 2px;
+    text-decoration-color: transparent;
+}
+
+.underline:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+    transition: .5s;
 }
 
 p {
