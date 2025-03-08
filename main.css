@@ -1,7 +1,6 @@
-main{
+main {
     display: inline-block;
     flex-grow: 1;
-    padding: 16px;
     width: 98%;
     max-width: 960px;
     margin: 20px auto;
@@ -10,11 +9,6 @@ main{
 .body {
     align-items: center;
     display: flex;
-}
-
-.about, h4 {
-    margin-bottom: 14px;
-    margin-right: 16px;
 }
 
 .selfie {
@@ -27,16 +21,19 @@ main{
     overflow: hidden;
 }
 
-@media (max-width: 720px){
+@media (max-width: 720px) {
     h4 {
         font-size: 20px;
     }
+
     .center {
         gap: 10px;
     }
+
     .selfie {
         width: 0;
     }
+
     .about {
         font-size: 15px;
         margin-right: 0;
