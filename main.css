@@ -19,6 +19,8 @@ main {
     top: -25px;
     border-radius: 50%;
     overflow: hidden;
+    /* box-shadow: 0 0 0 5px rgb(104, 33, 33); */
+    /* put a dark maroon?? decide later*/
 }
 
 @media (max-width: 720px) {
