@@ -1,0 +1,60 @@
+ul,
+h3 {
+    color: #ffffff;
+}
+
+.top {
+    margin-top: 0;
+}
+
+main {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+h3 {
+    font-weight: 450;
+    margin: 16px 0;
+    font-size: 28px;
+}
+
+ul {
+    padding: 3px;
+    background-color: #422f06;
+    border-radius: 8px;
+    margin: auto 10px;
+}
+
+li {
+    margin-left: 24px;
+    font-size: 17px;
+
+}
+
+hr {
+    height: 3px;
+    background-color: rgb(54, 69, 87);
+    border-color: transparent;
+    margin: 26px 0;
+}
+
+.desc {
+    margin: 12px 0;
+}
+
+.category {
+    padding: 3px;
+    background-color: #422f06;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.top {
+    margin-top: 0;
+}
+
+.planned {
+    font-style: italic;
+}

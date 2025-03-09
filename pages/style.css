@@ -11,8 +11,8 @@
 }
 
 a {
-    text-decoration: transparent;
-    padding:0;
+    text-decoration: none;
+    padding: 0;
 }
 
 body {
@@ -37,6 +37,7 @@ header {
 }
 
 h1 {
+    padding: 3px;
     background-color: #0c101a;
     border-radius: 50%;
     margin-left: 12px;
@@ -119,6 +120,17 @@ h4 {
     top: -25px;
     border-radius: 50%;
     overflow: hidden;
+}
+
+.redir {
+    color: hsl(253, 94%, 67%);
+    text-decoration: underline;
+    text-decoration-color: transparent;
+}
+
+.redir:hover {
+    text-decoration-color: hsl(253, 94%, 67%);
+    transition: 0.5s;
 }
 
 /* FOOTER */
