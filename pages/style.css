@@ -85,11 +85,6 @@ header:hover {
     transition: 0.25s;
 }
 
-.main {
-    text-decoration: none;
-    text-decoration-color: transparent;
-}
-
 /* BODY */
 
 main {
@@ -176,7 +171,6 @@ h5 {
 }
 
 .underline:hover {
-    text-decoration: underline;
     text-decoration-color: #ffffff;
     transition: .5s;
 }
