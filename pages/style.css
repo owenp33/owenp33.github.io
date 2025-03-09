@@ -58,8 +58,7 @@ h2 {
 
 h1,
 h2 {
-    border: 3px solid green;
-    border-color: transparent;
+    border: 3px solid transparent;
 }
 
 .left {
