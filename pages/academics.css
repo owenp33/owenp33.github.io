@@ -12,6 +12,7 @@ main {
     display: flex;
     align-items: center;
     width: 90%;
+    padding-bottom: 36px;
 }
 
 h3 {
@@ -28,9 +29,9 @@ ul {
 }
 
 li {
+    margin: 6px auto;
     margin-left: 24px;
     font-size: 17px;
-
 }
 
 hr {
