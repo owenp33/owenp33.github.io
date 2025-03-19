@@ -95,38 +95,6 @@ main {
     margin: 20px auto;
 }
 
-.body {
-    align-items: center;
-    display: flex;
-}
-
-.about,
-h4 {
-    margin-bottom: 14px;
-    margin-right: 16px;
-}
-
-.selfie {
-    width: 1400px;
-    aspect-ratio: 1/1;
-    position: relative;
-    display: flex;
-    top: -25px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.redir {
-    color: #c5002e;
-    text-decoration: underline;
-    text-decoration-color: transparent;
-}
-
-.redir:hover {
-    text-decoration-color: #FFCC33;
-    transition: 0.5s;
-}
-
 /* FOOTER */
 
 .credit {
@@ -211,15 +179,6 @@ p {
 
     .center {
         gap: 10px;
-    }
-
-    .selfie {
-        width: 0;
-    }
-
-    .about {
-        font-size: 15px;
-        margin-right: 0;
     }
 
     footer {
