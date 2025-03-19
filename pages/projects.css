@@ -7,3 +7,39 @@ h3 {
     text-decoration: underline;
     font-size: 24px;
 }
+
+.inf {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    color: #9fa5af;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.title:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.date {
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 90px;
+}
+
+h6 {
+    color: #9fa5af;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.desc {
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.display {}
