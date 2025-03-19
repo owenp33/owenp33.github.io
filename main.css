@@ -11,18 +11,6 @@ main {
     display: flex;
 }
 
-.selfie {
-    width: 900px;
-    aspect-ratio: 1/1;
-    position: relative;
-    display: flex;
-    top: -25px;
-    border-radius: 50%;
-    overflow: hidden;
-    /* box-shadow: 0 0 0 5px rgb(104, 33, 33); */
-    /* put a dark maroon?? decide later*/
-}
-
 @media (max-width: 720px) {
     h4 {
         font-size: 20px;
