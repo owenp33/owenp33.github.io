@@ -53,11 +53,15 @@ h4 {
     }
 
     .selfie {
-        width: 0;
+        width: 0%;
     }
 
     .about {
         font-size: 15px;
         margin-right: 0;
+    }
+
+    .bio {
+        width: 95%;
     }
 }
