@@ -59,9 +59,10 @@ h4 {
     .about {
         font-size: 15px;
         margin-right: 0;
+        width: 95%;
     }
 
     .bio {
-        width: 95%;
+        width: 100%;
     }
 }
