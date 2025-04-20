@@ -181,19 +181,6 @@ p {
         gap: 10px;
     }
 
-    footer {
-        height: 120px;
-    }
-
-    .reference {
-        margin-top: 10px;
-    }
-
-    .credit {
-        font-size: 12px;
-        margin-top: 10px;
-    }
-
     header:hover {
         padding: 10px 0;
     }
