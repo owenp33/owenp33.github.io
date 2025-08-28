@@ -6,6 +6,8 @@ h3 {
 h3 {
     text-decoration: underline;
     font-size: 24px;
+    text-decoration-thickness: 2px;
+    text-decoration-style: dotted;
 }
 
 .inf {
@@ -41,8 +43,8 @@ h6 {
     font-weight: 200;
     font-size: 14px;
     padding: 3px;
-    border: #8d65109c solid;
-    background-color: #422f06;
+    border: #c28c199c solid;
+    background-color: #49350b;
     border-radius: 5px;
 }
 
