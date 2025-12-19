@@ -15,7 +15,7 @@ a {
 }
 
 body {
-    background: #1b2236;
+    background: rgb(32, 6, 6);
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -37,7 +37,7 @@ header {
 
 h1 {
     padding: 3px;
-    background-color: #0c1220;
+    background-color: #580b0b;
     border-radius: 50%;
     margin-left: 12px;
 }
@@ -81,7 +81,7 @@ header:hover {
     width: 100%;
     padding: 14px 0px;
     margin: 0 auto;
-    background: #151b2b;
+    background: #350a0a;
     transition: 0.25s;
 }
 
@@ -98,7 +98,7 @@ main {
 /* FOOTER */
 
 .credit {
-    color: rgb(172, 187, 202);
+    color: rgb(202, 172, 172);
     font-family: sans-serif, 'Times New Roman', Times, serif;
     font-size: 14px;
 }
@@ -109,7 +109,7 @@ footer {
     margin-top: 4px;
     display: flex;
     flex-direction: column;
-    background: #020617;
+    background: #350a0a;
     align-items: center;
     padding-bottom: 14px;
 }
@@ -160,7 +160,7 @@ p {
 }
 
 .linkedIn {
-    color: #3d99f5;
+    color: #ffd82b;
 }
 
 @media (max-width: 720px) {
