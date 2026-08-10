@@ -1,0 +1,52 @@
+h3 {
+    color: var(--text-primary);
+    text-decoration: underline;
+    font-size: 24px;
+    text-decoration-thickness: 2px;
+    text-decoration-style: dotted;
+    margin: 16px 0;
+}
+
+.inf {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    color: var(--panel-projects-title);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.title:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.date {
+    margin-left: 10px;
+    margin-top: 5px;
+    max-width: 35%;
+    color: var(--panel-projects-title);
+}
+
+h6 {
+    color: var(--panel-projects-title);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.desc {
+    font-weight: 200;
+    font-size: 14px;
+    padding: 3px;
+    border: var(--panel-projects-border) solid;
+    background-color: var(--panel-projects-bg);
+    border-radius: 5px;
+    color: var(--text-body);
+}
+
+.display {
+    margin: 12px 0;
+}

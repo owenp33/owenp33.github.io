@@ -1,0 +1,102 @@
+main {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding-bottom: 36px;
+}
+
+h3 {
+    color: var(--text-primary);
+    font-weight: 450;
+    margin: 24px 0 12px;
+    font-size: 26px;
+}
+
+.top {
+    margin-top: 0;
+}
+
+.resume {
+    width: 100%;
+}
+
+.role {
+    margin-bottom: 18px;
+}
+
+.role-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.role-title {
+    color: var(--text-primary);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.role-date {
+    color: var(--panel-projects-title);
+    font-size: 14px;
+    font-weight: 300;
+    white-space: nowrap;
+}
+
+.role-org {
+    color: var(--panel-projects-title);
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.role ul {
+    color: var(--panel-academics-text);
+    padding: 8px 8px 8px 0;
+    background-color: var(--panel-academics-bg);
+    border-radius: 8px;
+    margin-top: 6px;
+}
+
+.role li {
+    margin: 4px auto;
+    margin-left: 24px;
+    font-size: 15px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skill-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.skill-label {
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 15px;
+    min-width: 220px;
+}
+
+.skill-tags {
+    color: var(--panel-academics-text);
+    background-color: var(--panel-academics-bg);
+    border-radius: 8px;
+    padding: 4px 10px;
+    font-size: 14px;
+    flex: 1;
+}
+
+@media (max-width: 720px) {
+    .skill-label {
+        min-width: 100%;
+    }
+}

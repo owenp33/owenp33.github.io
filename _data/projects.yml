@@ -1,0 +1,55 @@
+- title: Workload Complexity and Music Detection
+  category: Machine Learning
+  url: https://github.com/owenp33/workload-complexity-and-music-detection/
+  date: December 2025
+  featured: true
+  description: >
+    Investigated how cognitive workload interacts with physiological and behavioral responses under calming versus vexing music conditions. Engineered domain-specific features from multimodal data and evaluated multiple models including XGBoost, MLPs, Deep Neural Networks, RIPPER, and KNN. Applied systematic hyperparameter tuning and model comparison to identify the most predictive architecture and quantify the relationship between workload intensity and biometric response patterns.
+
+- title: Facial Expression Recognition
+  category: Machine Learning
+  url: https://github.com/owenp33/facial-expression-classification
+  date: December 2025
+  featured: false
+  description: >
+    Built a multi-class emotion classification pipeline to identify six facial expressions (angry, fear, happy, neutral, sad, surprise). Implemented and compared classical ML approaches (SVM, MLP) with deep learning architectures including a custom CNN and a fine-tuned ResNet model. Focused on model evaluation, generalization performance, and the impact of transfer learning on classification accuracy.
+
+- title: Finance Tracker Application
+  category: Programming
+  url: https://github.com/owenp33/finance_tracker
+  date: October 2025 - Present
+  featured: true
+  description: >
+    Designed and developed a full-stack personal finance application for tracking income, expenses, and budgeting goals. Built a RESTful Flask API with PostgreSQL for persistent storage and secure authentication, and implemented a responsive React frontend with dynamic data visualization. Emphasized clean API design, relational data modeling, and scalable architecture.
+
+- title: Scrabble AI Game
+  category: Programming
+  url: https://github.com/andrewtomfohrde/4511project
+  date: May 2025
+  featured: false
+  description: >
+    Developed a terminal-based Scrabble game in Python featuring multiple AI strategies. Implemented game logic, board state management, and AI move evaluation for experimental comparison in a research setting. Assessed algorithmic decision-making performance and strategic trade-offs across AI variants.
+
+- title: Drone Simulation - Weather Extension
+  category: Programming
+  url: https://github.com/owenp33/weather-extension-3081w/tree/main
+  date: May 2025
+  featured: false
+  description: >
+    Engineered an extreme weather extension for a drone simulation by introducing wind displacement and damage modeling. Applied SOLID principles and design patterns (Singleton and Decorator) to maintain extensibility and modularity. Structured the system to support future environmental and physics-based enhancements.
+
+- title: Artificial Intelligence as a Sustainable Solution for Energy Consumption
+  category: Formal Reports
+  url: https://docs.google.com/document/d/1W7XVKbPHLXy8h3v2JINSKrMNgmg4BW8mnSZPJ5ddQWA/edit?usp=sharing
+  date: December 2024
+  featured: false
+  description: >
+    Researched energy optimization strategies for data centers within the ICT sector, including workflow orchestration, liquid cooling systems, heat reuse, and hardware efficiency improvements. Analyzed how AI-driven infrastructure management can reduce operational energy costs and environmental impact.
+
+- title: Artificial Intelligence Usage in Academics
+  category: Formal Reports
+  url: https://docs.google.com/document/d/1v8nABJSXqjZp15a2AUmcyKEFjJsqomYHGHrUQRLdAww/edit?usp=sharing
+  date: July 2024
+  featured: false
+  description: >
+    Evaluated trends in student AI adoption and academic integration through literature review and analysis of University of Minnesota poll data. Assessed institutional policy implications and proposed data-informed strategies for responsible AI integration in higher education.

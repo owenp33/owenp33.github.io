@@ -1,0 +1,17 @@
+---
+layout: default
+title: Projects
+styles:
+  - /assets/css/projects.css
+permalink: /projects/
+---
+<nav>
+{% assign categories = site.data.projects | map: 'category' | uniq %}
+{% for category in categories %}
+    <h3>{{ category }}</h3>
+    {% assign items = site.data.projects | where: 'category', category %}
+    {% for project in items %}
+        {% include project-card.html project=project %}
+    {% endfor %}
+{% endfor %}
+</nav>

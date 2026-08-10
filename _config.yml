@@ -1,0 +1,11 @@
+title: Owen Peterson
+description: Owen Peterson's portfolio
+url: "https://owenp33.github.io"
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules

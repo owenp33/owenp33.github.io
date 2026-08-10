@@ -1,0 +1,20 @@
+<header>
+    <a class="brand" href="{{ '/' | relative_url }}">
+        <img class="brand-logo" src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Owen Peterson">
+        <h1 class="brand-name">Owen Peterson</h1>
+    </a>
+    <nav class="nav-right">
+        <a class="underline{% if page.url == '/' %} active{% endif %}" href="{{ '/' | relative_url }}"><h2>About</h2></a>
+        <span class="nav-item">
+            <a class="underline{% if page.url == '/experience/' %} active{% endif %}" href="{{ '/experience/' | relative_url }}"><h2>Resume/Experience</h2></a>
+            <a class="resume-download" href="{{ '/assets/resume.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="Download resume">
+                <i class="fa fa-download"></i>
+            </a>
+        </span>
+        <a class="underline{% if page.url == '/projects/' %} active{% endif %}" href="{{ '/projects/' | relative_url }}"><h2>Projects</h2></a>
+        <a class="underline{% if page.url == '/media/' %} active{% endif %}" href="{{ '/media/' | relative_url }}"><h2>Media</h2></a>
+        <button class="theme-toggle" type="button" aria-label="Toggle color theme">
+            <i class="fa fa-sun-o icon-sun"></i><i class="fa fa-moon-o icon-moon"></i>
+        </button>
+    </nav>
+</header>

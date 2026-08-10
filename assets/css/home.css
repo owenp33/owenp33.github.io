@@ -1,0 +1,79 @@
+.body {
+    align-items: center;
+    display: flex;
+}
+
+.about,
+h4 {
+    margin-bottom: 14px;
+    margin-right: 16px;
+    width: 95%;
+}
+
+.bio {
+    width: 70%;
+}
+
+.selfie {
+    width: 30%;
+    aspect-ratio: 1/1;
+    position: relative;
+    display: flex;
+    top: -25px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.selfie img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.teaser {
+    margin-top: 32px;
+}
+
+.teaser-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.teaser-head h3 {
+    color: var(--text-primary);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.see-more {
+    color: var(--panel-projects-title);
+    font-size: 14px;
+}
+
+.see-more:hover {
+    color: var(--accent-hover);
+    transition: 0.3s;
+}
+
+.teaser-grid.gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 260px;
+}
+
+@media (max-width: 720px) {
+    .selfie {
+        width: 0%;
+    }
+
+    .about {
+        font-size: 15px;
+        margin-right: 0;
+        width: 95%;
+    }
+
+    .bio {
+        width: 100%;
+    }
+}

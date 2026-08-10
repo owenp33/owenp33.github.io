@@ -1,68 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Owen's Portfolio Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="main.css"/>
-    <link rel="stylesheet" href="pages/style.css"/>
-    <link rel="icon" href="pages/resources/IMG_0257.jpg">
-</head>
-<body>
-    <header>
-        <div class="head">
-            <a href="https://owenp33.github.io/" target="_self">
-                <h1>OP</h1>
-            </a>
-            <div class="center">
-                <a class="underline" href="#add_a_link">
-                    <h2>Experience</h2>
-                </a>
-                <a class="underline" href="pages/projects.html">
-                    <h2>Projects</h2>
-                </a>
-                <a class="underline" href="mailto:owenpeterson1003@gmail.com">
-                    <h2>Contact</h2>
-                </a>
-            </div>
-        </div>
-    </header>
-    <main>
-        <section class="body">
-            <div class="bio">
-                <h4>Hi, I'm Owen Peterson!</h4>
-                <p class="about">Recently, I graduated from the <a class="redir" href="pages/academics.html">University of Minnesota</a> with a Bachelors degree in Computer Science and a minor in Statistics. I began at the University of St. Thomas somewhat undecided, but knowing I wanted to end up in the ballpark of Computer/Data Science because of my passion for mathematics and problem-solving. Since then, my passion for Computer Science and Data Analysis has flourished with various Machine Learning and Software Development projects under my belt.</p>
-                <p class="about">Outside of my academic studies, I've been actively engaging in volunteer work to serve my local communities, TAing to support student learning, and participating in student groups such as GAI Club and Rocket Team to meet new people and learn more about the vast applications of my studies.</p>
-                <p class="about">In my day-to-day life, I enjoy different forms of storytelling such as listening to music, playing video games, and reading novels. I'm passionate about exploring new subjects and being open to understand things from new perspectives. If you'd like to chat, please feel free to send me an email or message me on LinkedIn!</p>
-            </div>
-            <div class="selfie">
-                <img src="pages/resources/IMG_3035.jpg" alt="Picture of me">
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="reference">
-            <a class="footerLink" href="mailto:owenpeterson1003@gmail.com" target="_blank">
-                <div class="footIcon">
-                    <p>@</p>
-                </div>
-                <h5 class="underline">Contact</h5>
-            </a>
-            <a class="footerLink underline" href="https://github.com/owenp33" target="_blank">
-                <div class="footIcon">
-                    <i class="fa fa-github"></i>
-                </div>
-                <h5>/owenp33</h5>
-            </a>
-            <a class="footerLink underline" href="https://www.linkedin.com/in/owenp33/" target="_blank">
-                <div class="footIcon linkedIn">
-                    <i class="fa fa-linkedin-square"></i>
-                </div>
-                <h5>/in/owenp33</h5>
-            </a>
-        </div>
-        <p class="credit">Portfolio made using HTML and CSS, hosted on GitHub Pages</p>
-    </footer>
-</body>
-</html>
+---
+layout: default
+title: About
+styles:
+  - /assets/css/home.css
+  - /assets/css/projects.css
+  - /assets/css/media.css
+---
+<section class="body">
+    <div class="bio">
+        <h4>Hi, I'm Owen Peterson!</h4>
+        <p class="about">Recently, I graduated from the <a class="redir" href="{{ '/experience/#education' | relative_url }}">University of Minnesota</a> with a Bachelors degree in Computer Science and a minor in Statistics. I began at the University of St. Thomas somewhat undecided, but knowing I wanted to end up in the ballpark of Computer/Data Science because of my passion for mathematics and problem-solving. Since then, my passion for Computer Science and Data Analysis has flourished with various Machine Learning and Software Development projects under my belt.</p>
+        <p class="about">Outside of my academic studies, I've been actively engaging in volunteer work to serve my local communities, TAing to support student learning, and participating in student groups such as GAI Club and Rocket Team to meet new people and learn more about the vast applications of my studies.</p>
+        <p class="about">In my day-to-day life, I enjoy different forms of storytelling such as listening to music, playing video games, and reading novels. I'm passionate about exploring new subjects and being open to understand things from new perspectives. If you'd like to chat, please feel free to send me an email or message me on LinkedIn!</p>
+    </div>
+    <div class="selfie">
+        <img src="{{ '/assets/images/selfie.jpg' | relative_url }}" alt="Picture of me">
+    </div>
+</section>
+
+<section class="teaser">
+    <div class="teaser-head">
+        <h3>Featured Projects</h3>
+        <a class="see-more" href="{{ '/projects/' | relative_url }}">See all projects &rarr;</a>
+    </div>
+    {% assign featured_projects = site.data.projects | where: 'featured', true %}
+    {% for project in featured_projects %}
+        {% include project-card.html project=project %}
+    {% endfor %}
+</section>
+
+<section class="teaser">
+    <div class="teaser-head">
+        <h3>Media</h3>
+        <a class="see-more" href="{{ '/media/' | relative_url }}">See more photos &rarr;</a>
+    </div>
+    <div class="teaser-grid gallery-grid">
+        {% assign preview_photos = site.data.media | slice: 0, 2 %}
+        {% for photo in preview_photos %}
+            {% include gallery-item.html photo=photo %}
+        {% endfor %}
+    </div>
+</section>
