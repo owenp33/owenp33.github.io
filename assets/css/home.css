@@ -43,13 +43,13 @@ h4 {
 
 .teaser-head h3 {
     color: var(--text-primary);
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
 }
 
 .see-more {
     color: var(--panel-projects-title);
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .see-more:hover {
@@ -68,7 +68,7 @@ h4 {
     }
 
     .about {
-        font-size: 15px;
+        font-size: 14px;
         margin-right: 0;
         width: 95%;
     }

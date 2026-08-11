@@ -84,19 +84,19 @@ header {
 }
 
 .brand-name {
-    font-size: 22px;
+    font-size: 18px;
     color: var(--text-primary);
     font-weight: 700;
 }
 
 h4 {
-    font-size: 28px;
+    font-size: 22px;
     color: var(--text-primary);
     font-weight: 700;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--text-secondary);
     text-decoration-color: transparent;
@@ -118,7 +118,7 @@ h2 {
 
 .resume-download {
     color: var(--text-secondary);
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .resume-download:hover {
@@ -130,7 +130,7 @@ h2 {
     background: transparent;
     border: none;
     color: var(--text-primary);
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1;
     cursor: pointer;
     padding: 6px 8px;
@@ -179,7 +179,7 @@ main {
 .credit {
     color: var(--text-muted);
     font-family: sans-serif, 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 footer {
@@ -214,7 +214,7 @@ footer {
 }
 
 h5 {
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 2px;
     text-decoration: underline transparent;
 }
@@ -226,7 +226,7 @@ p {
 .about {
     text-align: left;
     color: var(--text-secondary);
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .linkedIn {
@@ -250,15 +250,15 @@ p {
     }
 
     h2 {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .brand-name {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .nav-right {
