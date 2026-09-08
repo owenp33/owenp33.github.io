@@ -35,21 +35,6 @@
   url: https://github.com/owenp33/weather-extension-3081w/tree/main
   date: May 2025
   featured: false
+  image: /assets/images/projects/drone-simulation.jpg
   description: >
     Engineered an extreme weather extension for a drone simulation by introducing wind displacement and damage modeling. Applied SOLID principles and design patterns (Singleton and Decorator) to maintain extensibility and modularity. Structured the system to support future environmental and physics-based enhancements.
-
-- title: Artificial Intelligence as a Sustainable Solution for Energy Consumption
-  category: Formal Reports
-  url: https://docs.google.com/document/d/1W7XVKbPHLXy8h3v2JINSKrMNgmg4BW8mnSZPJ5ddQWA/edit?usp=sharing
-  date: December 2024
-  featured: false
-  description: >
-    Researched energy optimization strategies for data centers within the ICT sector, including workflow orchestration, liquid cooling systems, heat reuse, and hardware efficiency improvements. Analyzed how AI-driven infrastructure management can reduce operational energy costs and environmental impact.
-
-- title: Artificial Intelligence Usage in Academics
-  category: Formal Reports
-  url: https://docs.google.com/document/d/1v8nABJSXqjZp15a2AUmcyKEFjJsqomYHGHrUQRLdAww/edit?usp=sharing
-  date: July 2024
-  featured: false
-  description: >
-    Evaluated trends in student AI adoption and academic integration through literature review and analysis of University of Minnesota poll data. Assessed institutional policy implications and proposed data-informed strategies for responsible AI integration in higher education.

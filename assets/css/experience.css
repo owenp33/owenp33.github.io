@@ -1,11 +1,3 @@
-main {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    width: 90%;
-    padding-bottom: 36px;
-}
-
 h3 {
     color: var(--text-primary);
     font-weight: 450;
@@ -66,37 +58,35 @@ h3 {
     font-size: 13px;
 }
 
-.skills {
+.documents {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-}
-
-.skill-group {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
     gap: 8px;
 }
 
-.skill-label {
-    color: var(--text-primary);
-    font-weight: 600;
-    font-size: 13px;
-    min-width: 220px;
-}
-
-.skill-tags {
-    color: var(--panel-academics-text);
+.doc-item {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
     background-color: var(--panel-academics-bg);
     border-radius: 8px;
-    padding: 4px 10px;
-    font-size: 12px;
-    flex: 1;
+    padding: 8px 12px;
 }
 
-@media (max-width: 720px) {
-    .skill-label {
-        min-width: 100%;
-    }
+.doc-title {
+    color: var(--panel-academics-text);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.doc-item:hover .doc-title {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.doc-type {
+    color: var(--panel-projects-title);
+    font-size: 11px;
+    white-space: nowrap;
 }

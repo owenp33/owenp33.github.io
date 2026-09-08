@@ -1,0 +1,4 @@
+<a class="doc-item" href="{% if include.doc.url contains '://' %}{{ include.doc.url }}{% else %}{{ include.doc.url | relative_url }}{% endif %}" target="_blank" rel="noopener">
+    <span class="doc-title">{{ include.doc.title }}</span>
+    <span class="doc-type">{{ include.doc.category }}</span>
+</a>
