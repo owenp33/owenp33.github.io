@@ -90,3 +90,33 @@ h3 {
     font-size: 11px;
     white-space: nowrap;
 }
+
+.course {
+    position: relative;
+    text-decoration: underline dotted;
+    text-decoration-color: var(--panel-projects-title);
+    text-underline-offset: 2px;
+    cursor: help;
+}
+
+.course::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-6px);
+    background-color: var(--bg-panel);
+    color: var(--text-primary);
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 11px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s;
+    z-index: 10;
+}
+
+.course:hover::after {
+    opacity: 1;
+}
