@@ -58,37 +58,60 @@ h3 {
     font-size: 13px;
 }
 
-.documents {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+.doc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 16px;
+    margin-top: 12px;
 }
 
-.doc-item {
+.doc-card {
     display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 10px;
-    background-color: var(--panel-academics-bg);
-    border-radius: 8px;
-    padding: 8px 12px;
+    flex-direction: column;
+    gap: 6px;
+    color: inherit;
+}
+
+.doc-thumb {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--panel-projects-bg);
+    border: var(--panel-projects-border) solid;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.doc-thumb img,
+.doc-thumb canvas {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.doc-thumb-icon {
+    margin: auto;
+    font-size: 34px;
+    color: var(--panel-projects-title);
 }
 
 .doc-title {
-    color: var(--panel-academics-text);
-    font-size: 13px;
+    color: var(--text-primary);
+    font-size: 14px;
     font-weight: 500;
 }
 
-.doc-item:hover .doc-title {
+.doc-card:hover .doc-title {
     text-decoration: underline;
     transition: 0.3s;
 }
 
-.doc-type {
+.doc-subtitle {
     color: var(--panel-projects-title);
-    font-size: 11px;
-    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 300;
 }
 
 .course {

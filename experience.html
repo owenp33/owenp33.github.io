@@ -3,6 +3,9 @@ layout: default
 title: Experience
 styles:
   - /assets/css/experience.css
+scripts:
+  - https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js
+  - /assets/js/doc-preview.js
 permalink: /experience/
 ---
 <div class="resume">
@@ -64,7 +67,7 @@ permalink: /experience/
     </div>
 
     <h3>Documents</h3>
-    <div class="documents">
+    <div class="doc-grid">
         {% for doc in site.data.documents %}
             {% include document-item.html doc=doc %}
         {% endfor %}
