@@ -6,7 +6,7 @@
   description: >
     Investigated how cognitive workload interacts with physiological and behavioral responses under calming versus vexing music conditions. Engineered domain-specific features from multimodal data and evaluated multiple models including XGBoost, MLPs, Deep Neural Networks, RIPPER, and KNN. Applied systematic hyperparameter tuning and model comparison to identify the most predictive architecture and quantify the relationship between workload intensity and biometric response patterns.
 
-- title: Facial Expression Recognition
+- title: Facial Expression Classification
   category: Machine Learning
   url: https://github.com/owenp33/facial-expression-classification
   date: December 2025
