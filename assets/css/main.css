@@ -110,22 +110,6 @@ h2 {
     flex-wrap: wrap;
 }
 
-.nav-item {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-}
-
-.resume-download {
-    color: var(--text-secondary);
-    font-size: 13px;
-}
-
-.resume-download:hover {
-    color: var(--accent-hover);
-    transition: 0.3s;
-}
-
 .theme-toggle {
     background: transparent;
     border: none;
