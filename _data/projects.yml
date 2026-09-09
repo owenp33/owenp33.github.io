@@ -1,34 +1,32 @@
-- title: Workload Complexity and Music Detection
+- title: Task Complexity & Music Detection
   category: Machine Learning
   url: https://github.com/owenp33/workload-complexity-and-music-detection/
-  date: December 2025
+  date: Dec 2025
   featured: true
-  description: >
-    Investigated how cognitive workload interacts with physiological and behavioral responses under calming versus vexing music conditions. Engineered domain-specific features from multimodal data and evaluated multiple models including XGBoost, MLPs, Deep Neural Networks, RIPPER, and KNN. Applied systematic hyperparameter tuning and model comparison to identify the most predictive architecture and quantify the relationship between workload intensity and biometric response patterns.
+  subtitle: GitHub Repository
 
 - title: Facial Expression Classification
   category: Machine Learning
   url: https://github.com/owenp33/facial-expression-classification
-  date: December 2025
-  featured: false
-  description: >
-    Built a multi-class emotion classification pipeline to identify six facial expressions (angry, fear, happy, neutral, sad, surprise). Implemented and compared classical ML approaches (SVM, MLP) with deep learning architectures including a custom CNN and a fine-tuned ResNet model. Focused on model evaluation, generalization performance, and the impact of transfer learning on classification accuracy.
+  date: Dec 2025
+  featured: true
+  subtitle: GitHub Repository
 
-- title: Finance Tracker Application
+- title: Finance Dashboard
   category: Programming
   url: https://github.com/owenp33/finance_tracker
-  date: October 2025 - Present
+  date: Present
   featured: true
-  description: >
-    Designed and developed a full-stack personal finance application for tracking income, expenses, and budgeting goals. Built a RESTful Flask API with PostgreSQL for persistent storage and secure authentication, and implemented a responsive React frontend with dynamic data visualization. Emphasized clean API design, relational data modeling, and scalable architecture.
+  image: /assets/images/projects/findash.jpg
+  subtitle: GitHub Repository
 
-- title: Scrabble AI Game
+- title: Scrabble AI Engine
   category: Programming
   url: https://github.com/andrewtomfohrde/ScrabbleAI
   date: May 2025
   featured: false
-  description: >
-    Developed a terminal-based Scrabble game in Python featuring multiple AI strategies. Implemented game logic, board state management, and AI move evaluation for experimental comparison in a research setting. Assessed algorithmic decision-making performance and strategic trade-offs across AI variants.
+  image: /assets/images/projects/scrabbleai.jpg
+  subtitle: GitHub Repository
 
 - title: Drone Simulation - Weather Extension
   category: Programming
@@ -36,5 +34,4 @@
   date: May 2025
   featured: false
   image: /assets/images/projects/drone-simulation.jpg
-  description: >
-    Engineered an extreme weather extension for a drone simulation by introducing wind displacement and damage modeling. Applied SOLID principles and design patterns (Singleton and Decorator) to maintain extensibility and modularity. Structured the system to support future environmental and physics-based enhancements.
+  subtitle: GitHub Repository
