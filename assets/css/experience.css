@@ -70,6 +70,11 @@ h3 {
     flex-direction: column;
     gap: 6px;
     color: inherit;
+    transition: transform 0.2s ease;
+}
+
+.doc-card:hover {
+    transform: translateY(-6px);
 }
 
 .doc-thumb {
