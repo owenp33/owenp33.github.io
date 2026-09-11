@@ -3,7 +3,13 @@
   type: pdf
   url: /assets/documents/resume.pdf
 
-- title: AI for Sustainable Energy
+- title: Facial Emotion Classification
+  category: Research Poster
+  type: image
+  date: December 2025
+  url: /assets/documents/facial-expression-recognition-poster.png
+  
+- title: AI for Sustainable ICT Infrastructure
   category: Formal Report
   type: pdf
   date: December 2024
@@ -14,9 +20,3 @@
   type: pdf
   date: July 2024
   url: /assets/documents/ai-academics-report.pdf
-
-- title: Facial Emotion Classification
-  category: Research Poster
-  type: image
-  date: December 2025
-  url: /assets/documents/facial-expression-recognition-poster.png
