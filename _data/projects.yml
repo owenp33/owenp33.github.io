@@ -2,7 +2,7 @@
   category: Machine Learning
   url: https://github.com/owenp33/workload-complexity-and-music-detection/
   date: Dec 2025
-  featured: true
+  featured: false
   subtitle: GitHub Repository
 
 - title: Facial Expression Classification
@@ -10,6 +10,7 @@
   url: https://github.com/owenp33/facial-expression-classification
   date: Dec 2025
   featured: true
+  image: /assets/images/projects/fer_emojis.jpg
   subtitle: GitHub Repository
 
 - title: Finance Dashboard
@@ -24,7 +25,7 @@
   category: Programming
   url: https://github.com/andrewtomfohrde/ScrabbleAI
   date: May 2025
-  featured: false
+  featured: true
   image: /assets/images/projects/scrabbleai.jpg
   subtitle: GitHub Repository
 
