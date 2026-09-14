@@ -63,11 +63,11 @@ header {
     margin: 14px auto;
     padding: 0 12px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     max-width: 1200px;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 24px;
 }
 
 .brand {
@@ -81,12 +81,6 @@ header {
     height: 42px;
     border-radius: 50%;
     object-fit: cover;
-}
-
-.brand-name {
-    font-size: 18px;
-    color: var(--text-primary);
-    font-weight: 700;
 }
 
 h4 {
@@ -246,17 +240,8 @@ p {
         font-size: 17px;
     }
 
-    .brand-name {
-        font-size: 14px;
-    }
-
     .nav-right {
         gap: 10px;
     }
 }
 
-@media (max-width: 480px) {
-    .brand-name {
-        display: none;
-    }
-}
