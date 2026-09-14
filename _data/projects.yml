@@ -37,3 +37,10 @@
   featured: false
   image: /assets/images/projects/drone-simulation.jpg
   subtitle: GitHub Repository
+
+- title: Bid Pricing Tool
+  category: Business Operations
+  date: May 2026
+  featured: false
+  icon: fa-file-excel-o
+  subtitle: JP's Coatings
