@@ -1,15 +1,12 @@
 .body {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-areas:
-        "heading photo"
-        "text photo";
-    align-items: start;
-    column-gap: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
 }
 
-.body h4 {
-    grid-area: heading;
+.about-content {
+    flex: 1 1 auto;
+    min-width: 0;
 }
 
 .about,
@@ -19,12 +16,27 @@ h4 {
     width: 95%;
 }
 
-.bio {
-    grid-area: text;
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.badge {
+    background-color: var(--panel-projects-bg);
+    border: var(--panel-projects-border) solid;
+    color: var(--panel-projects-title);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 12px;
+    border-radius: 999px;
+    white-space: nowrap;
 }
 
 .selfie {
-    grid-area: photo;
+    flex: 0 0 260px;
+    width: 260px;
     aspect-ratio: 19/20;
     border-radius: 4px;
     overflow: hidden;
@@ -71,14 +83,12 @@ h4 {
 
 @media (max-width: 720px) {
     .body {
-        grid-template-columns: 1fr;
-        grid-template-areas:
-            "photo"
-            "heading"
-            "text";
+        flex-direction: column;
+        gap: 0;
     }
 
     .selfie {
+        flex-basis: auto;
         width: 100vw;
         position: relative;
         left: 50%;
