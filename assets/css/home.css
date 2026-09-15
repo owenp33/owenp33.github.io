@@ -47,6 +47,7 @@ h4 {
     height: 100%;
     object-fit: cover;
     transform: scale(1.15);
+    transform-origin: top;
 }
 
 .teaser {

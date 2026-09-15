@@ -147,6 +147,11 @@ h2 {
     transition: .5s;
 }
 
+.underline:hover h2 {
+    color: var(--accent-hover);
+    transition: 0.3s;
+}
+
 /* BODY */
 
 main {
