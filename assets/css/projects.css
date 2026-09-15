@@ -29,7 +29,7 @@ h3 {
 
 .project-thumb {
     aspect-ratio: 1 / 1;
-    border-radius: 30px;
+    border-radius: 36px;
     overflow: hidden;
     background-color: var(--panel-projects-bg);
     border: var(--panel-projects-border) solid;
