@@ -91,7 +91,7 @@ h4 {
 }
 
 h2 {
-    font-size: 38px;
+    font-size: 32px;
     font-weight: 600;
     color: var(--text-secondary);
     text-decoration-color: transparent;
@@ -101,7 +101,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 4px;
     flex-wrap: wrap;
 }
 
@@ -139,13 +139,22 @@ h2 {
 }
 
 .underline {
+    display: inline-block;
     text-decoration: underline transparent;
+    padding: 8px 14px;
+    border-radius: 0;
+    transition: background 0.3s, box-shadow 0.3s;
 }
 
 .underline:hover,
 .underline.active {
     text-decoration-color: var(--text-primary);
     transition: .5s;
+}
+
+.underline:hover {
+    background: var(--bg-panel);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 .underline:hover h2 {
