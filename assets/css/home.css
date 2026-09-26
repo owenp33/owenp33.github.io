@@ -9,34 +9,40 @@
     min-width: 0;
 }
 
-.about,
 h4 {
-    margin-bottom: 14px;
+    margin-bottom: 0px;
     margin-right: 16px;
     width: 95%;
+}
+
+.about {
+    margin-bottom: 16px;
+    margin-right: 16px;
+    width: 95%;
+    line-height: 1.5;
 }
 
 .badges {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin-bottom: 14px;
+    margin-bottom: 8px;
 }
 
 .badge {
-    background-color: var(--panel-projects-bg);
-    border: var(--panel-projects-border) solid;
-    color: var(--panel-projects-title);
+    background-color: var(--accent);
+    border: none;
+    color: #fff;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 600;
     padding: 4px 12px;
     border-radius: 999px;
     white-space: nowrap;
 }
 
 .selfie {
-    flex: 0 0 260px;
-    width: 260px;
+    flex: 0 0 300px;
+    width: 300px;
     aspect-ratio: 19/20;
     border-radius: 4px;
     overflow: hidden;
@@ -46,8 +52,8 @@ h4 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transform: scale(1.15);
-    transform-origin: top;
+    transform: scale(2.5);
+    transform-origin: 50% 41%;
 }
 
 .teaser {
@@ -58,13 +64,19 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .teaser-head h3 {
     color: var(--text-primary);
     font-size: 18px;
     font-weight: 500;
+    margin: 0;
+}
+
+.teaser .project-grid,
+.teaser .gallery-grid {
+    margin-top: 0;
 }
 
 .see-more {
@@ -82,30 +94,16 @@ h4 {
     max-width: 260px;
 }
 
+@media (max-width: 900px) {
+    .selfie {
+        display: none;
+    }
+}
+
 @media (max-width: 720px) {
     .body {
         flex-direction: column;
         gap: 0;
-    }
-
-    .selfie {
-        flex-basis: auto;
-        width: 100vw;
-        position: relative;
-        left: 50%;
-        right: 50%;
-        margin-left: -50vw;
-        margin-right: -50vw;
-        aspect-ratio: 4 / 3;
-        border-radius: 0;
-    }
-
-    .selfie img {
-        transform: none;
-    }
-
-    .body h4 {
-        margin-top: 16px;
     }
 
     .about {

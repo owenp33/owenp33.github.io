@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: #1af54a solid 2px; */
 }
 
 :root {
@@ -61,11 +62,11 @@ body {
 header {
     width: 100%;
     margin: 14px auto;
-    padding: 0 12px;
+    padding: 0 24px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1072px;
     flex-wrap: wrap;
     gap: 24px;
 }
@@ -84,13 +85,13 @@ header {
 }
 
 h4 {
-    font-size: 22px;
+    font-size: 38px;
     color: var(--text-primary);
     font-weight: 700;
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 38px;
     font-weight: 600;
     color: var(--text-secondary);
     text-decoration-color: transparent;
@@ -157,9 +158,11 @@ h2 {
 main {
     display: inline-block;
     flex-grow: 1;
-    width: 98%;
-    max-width: 1200px;
+    min-width: 0;
+    width: 100%;
+    max-width: 1072px;
     margin: 20px auto;
+    padding: 0 24px;
 }
 
 /* FOOTER */
@@ -232,7 +235,7 @@ p {
     transition: 0.5s;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1060px) {
     header {
         margin: 10px auto;
     }
