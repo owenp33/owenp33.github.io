@@ -10,51 +10,22 @@ permalink: /experience/
 ---
 <div class="resume">
     <h3 class="top" id="experience">Work Experience</h3>
-    <div class="role">
-        <div class="role-head">
-            <h5 class="role-title">IT Operations Intern</h5>
-            <h6 class="role-date">May 2025 &ndash; Aug 2025</h6>
-        </div>
-        <p class="role-org">Ostra Security</p>
-    </div>
-    <div class="role">
-        <div class="role-head">
-            <h5 class="role-title">Teaching Assistant</h5>
-            <h6 class="role-date">Jan 2025 &ndash; Dec 2025</h6>
-        </div>
-        <p class="role-org">UMN &ndash; College of Science & Engineering</p>
-    </div>
-    <div class="role">
-        <div class="role-head">
-            <h5 class="role-title">Painter/Laborer</h5>
-            <h6 class="role-date">June 2019 &ndash; Present</h6>
-        </div>
-        <p class="role-org">JP's Coatings</p>
-    </div>
-    <div class="role">
-        <div class="role-head">
-            <h5 class="role-title">VITA Tax Preparer</h5>
-            <h6 class="role-date">Jan 2025 &ndash; Aug 2026</h6>
-        </div>
-        <p class="role-org">Wright County Community Action</p>
-    </div>
+    {% assign work_experience = site.data.experience | where: 'category', 'Work Experience' %}
+    {% for role in work_experience %}
+        {% include role-item.html role=role %}
+    {% endfor %}
 
     <h3 id="education">Education</h3>
-    <div class="role">
-        <div class="role-head">
-            <h5 class="role-title">B.A. Computer Science &amp; Minor in Statistics</h5>
-        </div>
-        <p class="role-org">University of Minnesota &ndash; Twin Cities &middot; Dec 2025 &middot; GPA: 3.78</p>
-    </div>
+    {% assign education = site.data.experience | where: 'category', 'Education' %}
+    {% for role in education %}
+        {% include role-item.html role=role %}
+    {% endfor %}
 
     <h3>Honors &amp; Accolades</h3>
-    <div class="role">
-        <div class="role-head">
-            <h5 class="role-title">Dean's List</h5>
-            <h6 class="role-date">2023 &ndash; 2025</h6>
-        </div>
-        <p class="role-org">College of Liberal Arts</p>
-    </div>
+    {% assign honors = site.data.experience | where: 'category', 'Honors & Accolades' %}
+    {% for role in honors %}
+        {% include role-item.html role=role %}
+    {% endfor %}
     <div class="role">
         <h5 class="role-title">Significant Coursework</h5>
         <p class="role-org">Research papers and machine learning/data mining projects across:</p>
