@@ -244,17 +244,18 @@ p {
     transition: 0.5s;
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 900px) {
     header {
         margin: 10px auto;
     }
 
     h2 {
-        font-size: 11px;
+        font-size: 20px;
     }
 
     h4 {
-        font-size: 17px;
+        font-size: 26px;
+        padding-bottom: 4px;
     }
 
     .nav-right {
