@@ -27,23 +27,6 @@
     --panel-projects-title: #9fa5af;
 }
 
-:root[data-theme="light"] {
-    --bg: #faf6f4;
-    --bg-panel: #f1e5e2;
-    --text-primary: #2a1414;
-    --text-secondary: #3f2a2a;
-    --text-muted: #6b4f4f;
-    --text-body: #2a1414;
-    --accent: #a8001f;
-    --accent-hover: #b8860b;
-    --linkedin: #b5541c;
-    --panel-academics-bg: #fbe6b8;
-    --panel-academics-text: #3a2a05;
-    --panel-projects-bg: #f5e2d6;
-    --panel-projects-border: #c28c19;
-    --panel-projects-title: #6b5a54;
-}
-
 a {
     text-decoration: none transparent;
 }
@@ -54,7 +37,6 @@ body {
     min-height: 100vh;
     flex-direction: column;
     font-family: 'ranade', sans-serif, 'Times New Roman', Times, serif;
-    transition: background 0.3s, color 0.3s;
 }
 
 /* HEADER */
@@ -103,39 +85,6 @@ h2 {
     align-items: center;
     gap: 4px;
     flex-wrap: wrap;
-}
-
-.theme-toggle {
-    background: transparent;
-    border: none;
-    color: var(--text-primary);
-    font-size: 15px;
-    line-height: 1;
-    cursor: pointer;
-    padding: 6px 8px;
-    border-radius: 50%;
-}
-
-.theme-toggle:hover {
-    background: var(--bg-panel);
-    transition: 0.3s;
-}
-
-.theme-toggle svg {
-    display: none;
-    vertical-align: middle;
-}
-
-.theme-toggle .icon-moon {
-    display: inline-block;
-}
-
-:root[data-theme="light"] .theme-toggle .icon-sun {
-    display: inline-block;
-}
-
-:root[data-theme="light"] .theme-toggle .icon-moon {
-    display: none;
 }
 
 .underline {
@@ -190,7 +139,6 @@ footer {
     background: var(--bg-panel);
     align-items: center;
     padding-bottom: 14px;
-    transition: background 0.3s;
 }
 
 .reference {
