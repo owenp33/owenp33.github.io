@@ -147,6 +147,25 @@ main {
     padding: 0 24px;
 }
 
+main {
+    animation: page-fade-in 0.1s ease-out;
+}
+
+@keyframes page-fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    main {
+        animation: none;
+    }
+}
+
 /* FOOTER */
 
 .credit {
