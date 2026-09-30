@@ -7,8 +7,9 @@
         {{ content }}
     </main>
     {% include footer.html %}
+    {% assign asset_version = site.time | date: '%s' %}
     {% for script in page.scripts %}
-    <script src="{{ script | relative_url }}"></script>
+    <script src="{{ script | relative_url }}{% unless script contains '://' %}?v={{ asset_version }}{% endunless %}"></script>
     {% endfor %}
 </body>
 </html>

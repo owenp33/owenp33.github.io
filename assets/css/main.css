@@ -140,16 +140,15 @@ h2 {
 
 .underline {
     display: inline-block;
-    text-decoration: underline transparent;
+    text-decoration: none;
     padding: 8px 14px;
     border-radius: 0;
     transition: background 0.3s, box-shadow 0.3s;
 }
 
-.underline:hover,
 .underline.active {
+    text-decoration: underline;
     text-decoration-color: var(--text-primary);
-    transition: .5s;
 }
 
 .underline:hover {
