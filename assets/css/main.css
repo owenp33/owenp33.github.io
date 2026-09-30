@@ -80,11 +80,36 @@ h2 {
 }
 
 .nav-right {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 4px;
     flex-wrap: wrap;
+}
+
+.nav-indicator {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--text-primary);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.js-nav .nav-indicator {
+    display: block;
+}
+
+.js-nav .nav-indicator.is-animated {
+    transition: left 0.25s ease, top 0.25s ease, width 0.25s ease;
+}
+
+.js-nav .underline.active {
+    text-decoration: none;
 }
 
 .underline {
