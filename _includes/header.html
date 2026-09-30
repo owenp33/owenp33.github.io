@@ -1,7 +1,9 @@
 <header>
+    {% comment %}
     <a class="brand" href="{{ '/' | relative_url }}">
         <img class="brand-logo" src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Owen Peterson">
     </a>
+    {% endcomment %}
     <nav class="nav-right">
         <a class="underline{% if page.url == '/' %} active{% endif %}" href="{{ '/' | relative_url }}"><h2>About</h2></a>
         <a class="underline{% if page.url == '/experience/' %} active{% endif %}" href="{{ '/experience/' | relative_url }}"><h2>Experience</h2></a>
