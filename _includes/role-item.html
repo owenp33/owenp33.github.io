@@ -1,8 +1,18 @@
 {% assign role_dates = include.role.dates | default: include.role.date %}
-<div class="role">
+{% if include.role.url %}
+<a class="role role-card role-link" href="{{ include.role.url | relative_url }}">
+    <div class="role-head">
+        <h5 class="role-title">{{ include.role.title }}<svg class="role-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></h5>
+        {% if role_dates %}<h6 class="role-date">{{ role_dates }}</h6>{% endif %}
+    </div>
+    <p class="role-org">{{ include.role.org }}</p>
+</a>
+{% else %}
+<div class="role role-card">
     <div class="role-head">
         <h5 class="role-title">{{ include.role.title }}</h5>
         {% if role_dates %}<h6 class="role-date">{{ role_dates }}</h6>{% endif %}
     </div>
     <p class="role-org">{{ include.role.org }}</p>
 </div>
+{% endif %}
