@@ -1,7 +1,8 @@
+{% assign role_dates = include.role.dates | default: include.role.date %}
 <div class="role">
     <div class="role-head">
         <h5 class="role-title">{{ include.role.title }}</h5>
-        {% if include.role.date %}<h6 class="role-date">{{ include.role.date }}</h6>{% endif %}
+        {% if role_dates %}<h6 class="role-date">{{ role_dates }}</h6>{% endif %}
     </div>
     <p class="role-org">{{ include.role.org }}</p>
 </div>

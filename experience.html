@@ -11,7 +11,7 @@ permalink: /experience/
 ---
 <div class="resume">
     <h3 class="top" id="experience">Work Experience</h3>
-    {% assign work_experience = site.data.experience | where: 'category', 'Work Experience' %}
+    {% assign work_experience = site.work | sort: 'order' %}
     {% for role in work_experience %}
         {% include role-item.html role=role %}
     {% endfor %}

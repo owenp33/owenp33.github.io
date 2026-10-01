@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="work-detail">
+    <a class="back-link" href="{{ '/experience/' | relative_url }}">&larr; Experience</a>
+    <div class="role-head">
+        <h3 class="top">{{ page.title }}</h3>
+        <h6 class="role-date">{{ page.dates }}</h6>
+    </div>
+    <p class="role-org">{{ page.org }}</p>
+    <div class="work-body">
+        {{ content }}
+    </div>
+</article>
