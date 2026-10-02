@@ -1,41 +1,29 @@
 # Photos live in assets/images/gallery/ and appear on the Media page in this order (the homepage shows the first two).
 # file: the filename, with exact capitalization. caption: the subtitle shown when the photo is opened, also used as its alt text.
 
-- file: img-2059.jpg
-  caption: Headshot of Owen
-
-- file: cropped.jpg
-  caption: Owen smiling in front of an ivy wall
-
-- file: me1.jpg
-  caption: Owen leaning against an ivy wall
-
 - file: mememe.jpg
-  caption: Owen pointing at the camera on a gravel road
+  caption: "\"You the goat!\""
 
 - file: IMG_1330.JPG
-  caption: Dog wearing purple sunglasses on a couch
+  caption: Frankie wearing fiya purple sunglasses on the couch
 
 - file: IMG_1656.jpg
-  caption: Owen holding a smallmouth bass on a riverbank
-
-- file: IMG_1292.jpg
-  caption: Owen sitting on a concrete pillar, flashing a peace sign
+  caption: A smallmouth bass I caught in the Mississippi right off campus!
 
 - file: IMG_2300.JPG
-  caption: Selfie at a baseball game
+  caption: Selfie at a baseball game Mary (go twins!)
 
 - file: IMG_5847.jpg
-  caption: Owen in the Target Field clubhouse
+  caption: My dad and I in one of the Target Field clubhouses
 
 - file: IMG_8620.jpg
-  caption: Selfie on a campus lawn
+  caption: Selfie on a campus lawn with Mary ^_^
 
 - file: "trans1 (5).JPG"
-  caption: Selfie of Owen in a backyard
+  caption: First selfie on my digital camera
 
 - file: "trans11 (19).JPG"
   caption: Sitting on a graffiti-covered bench at night
 
 - file: IMG_2468.jpg
-  caption: Owen in a corn pit, giving two thumbs up
+  caption: Just me being a corny in the cornpit
