@@ -1,0 +1,46 @@
+- title: Task Complexity & Music Detection
+  category: Machine Learning
+  url: https://github.com/owenp33/workload-complexity-and-music-detection/
+  date: Dec 2025
+  featured: false
+  image: /assets/images/projects/TCMD.jpg
+  subtitle: GitHub Repository
+
+- title: Facial Expression Classification
+  category: Machine Learning
+  url: https://github.com/owenp33/facial-expression-classification
+  date: Dec 2025
+  featured: true
+  image: /assets/images/projects/fer_emojis.jpg
+  subtitle: GitHub Repository
+
+- title: Finance Dashboard
+  category: Programming
+  url: https://github.com/owenp33/finance_tracker
+  date: Present
+  featured: true
+  image: /assets/images/projects/findash.jpg
+  subtitle: GitHub Repository
+
+- title: Scrabble AI Engine
+  category: Programming
+  url: https://github.com/andrewtomfohrde/ScrabbleAI
+  date: May 2025
+  featured: true
+  image: /assets/images/projects/scrabbleai.jpg
+  subtitle: GitHub Repository
+
+- title: Drone Simulation - Weather Extension
+  category: Programming
+  url: https://github.com/owenp33/weather-extension-3081w/tree/main
+  date: May 2025
+  featured: false
+  image: /assets/images/projects/drone-simulation.jpg
+  subtitle: GitHub Repository
+
+- title: Bid Pricing Tool
+  category: Business Operations
+  date: May 2026
+  featured: false
+  image: /assets/images/projects/jpbid.png
+  subtitle: JP's Coatings

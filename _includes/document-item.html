@@ -1,0 +1,13 @@
+<a class="doc-card" href="{% if include.doc.url contains '://' %}{{ include.doc.url }}{% else %}{{ include.doc.url | relative_url }}{% endif %}" target="_blank" rel="noopener">
+    <div class="doc-thumb">
+        {% if include.doc.type == 'pdf' %}
+        <canvas data-pdf-thumb="{{ include.doc.url | relative_url }}"></canvas>
+        {% elsif include.doc.type == 'image' %}
+        <img src="{{ include.doc.url | relative_url }}" alt="{{ include.doc.title }}">
+        {% else %}
+        <i class="fa fa-file-text-o doc-thumb-icon" aria-hidden="true"></i>
+        {% endif %}
+    </div>
+    <h5 class="doc-title">{{ include.doc.title }}</h5>
+    <p class="doc-subtitle">{{ include.doc.category }}</p>
+</a>

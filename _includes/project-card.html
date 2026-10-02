@@ -1,0 +1,19 @@
+{% if include.project.url %}
+<a class="project-card" href="{{ include.project.url }}" target="_blank" rel="noopener">
+{% else %}
+<div class="project-card">
+{% endif %}
+    <div class="project-thumb">
+        {% if include.project.image %}
+        <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.title }}">
+        {% else %}
+        <i class="fa {{ include.project.icon | default: 'fa-code' }} project-thumb-icon" aria-hidden="true"></i>
+        {% endif %}
+    </div>
+    <h5 class="project-title">{{ include.project.title }}</h5>
+    <p class="project-subtitle">{{ include.project.subtitle }}</p>
+{% if include.project.url %}
+</a>
+{% else %}
+</div>
+{% endif %}

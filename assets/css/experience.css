@@ -1,0 +1,197 @@
+h3 {
+    color: var(--text-primary);
+    font-weight: 700;
+    margin: 24px 0 0;
+    font-size: 24px;
+    text-decoration: underline dotted;
+    text-decoration-thickness: 2px;
+}
+
+.top {
+    margin-top: 0;
+}
+
+.resume {
+    width: 100%;
+}
+
+.role {
+    margin-bottom: 18px;
+}
+
+.role-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.role-title {
+    color: var(--text-primary);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.role-date {
+    color: var(--panel-projects-title);
+    font-size: 12px;
+    font-weight: 300;
+    white-space: nowrap;
+}
+
+.role-org {
+    color: var(--panel-projects-title);
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.role-card {
+    display: block;
+    margin: 0 -12px 8px;
+    padding: 10px 12px 4px;
+    border-radius: 10px;
+    color: inherit;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.role-card:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.06);
+}
+
+.role-arrow {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-left: 6px;
+    vertical-align: -1px;
+    color: var(--panel-projects-title);
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.role-link:hover .role-arrow {
+    color: var(--accent-hover);
+    transform: translateX(3px);
+}
+
+.role ul {
+    color: var(--panel-academics-text);
+    padding: 8px 8px 8px 0;
+    background-color: var(--panel-academics-bg);
+    border-radius: 8px;
+    margin-top: 6px;
+}
+
+.role li {
+    margin: 4px auto;
+    margin-left: 24px;
+    font-size: 13px;
+}
+
+.doc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.doc-card {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: inherit;
+    transition: transform 0.2s ease;
+}
+
+.doc-card:hover {
+    transform: translateY(-6px);
+}
+
+.doc-thumb {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--panel-projects-bg);
+    border: var(--panel-projects-border) solid;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.doc-thumb img,
+.doc-thumb canvas {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    object-position: top;
+
+}
+
+.doc-thumb-icon {
+    margin: auto;
+    font-size: 34px;
+    color: var(--panel-projects-title);
+}
+
+.doc-title {
+    color: var(--text-primary);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.doc-card:hover .doc-title {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.doc-subtitle {
+    color: var(--panel-projects-title);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.course {
+    position: relative;
+    text-decoration: underline dotted;
+    text-decoration-color: var(--panel-projects-title);
+    text-underline-offset: 2px;
+    cursor: help;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: var(--panel-projects-title);
+    font-size: 13px;
+}
+
+.back-link:hover {
+    color: var(--text-primary);
+    transition: 0.3s;
+}
+
+.work-body {
+    margin-top: 8px;
+}
+
+.work-body p {
+    color: var(--text-body);
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.work-body ul {
+    padding-left: 24px;
+    margin-bottom: 12px;
+}
+
+.work-body li {
+    color: var(--text-secondary);
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 4px;
+}

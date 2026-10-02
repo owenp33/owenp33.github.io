@@ -1,0 +1,22 @@
+- title: Resume
+  category: Resume
+  type: pdf
+  url: /assets/documents/OP09302026-resume.pdf
+
+- title: Facial Emotion Classification
+  category: Research Poster
+  type: image
+  date: December 2025
+  url: /assets/documents/facial-expression-recognition-poster.png
+  
+- title: AI for Sustainable ICT Infrastructure
+  category: Formal Report
+  type: pdf
+  date: December 2024
+  url: /assets/documents/ai-sustainable-energy-report.pdf
+
+- title: AI in Academics
+  category: Formal Report
+  type: pdf
+  date: July 2024
+  url: /assets/documents/ai-academics-report.pdf

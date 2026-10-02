@@ -1,0 +1,29 @@
+title: Owen Peterson
+description: Owen Peterson's portfolio
+url: "https://owenp33.github.io"
+
+markdown: kramdown
+
+collections:
+  work:
+    output: true
+    permalink: /experience/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: work
+    values:
+      layout: work
+      styles:
+        - /assets/css/experience.css
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+
+webrick:
+  headers:
+    Cache-Control: "no-cache, no-store, must-revalidate"

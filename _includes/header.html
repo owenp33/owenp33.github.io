@@ -1,0 +1,14 @@
+<header>
+    {% comment %}
+    <a class="brand" href="{{ '/' | relative_url }}">
+        <img class="brand-logo" src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Owen Peterson">
+    </a>
+    {% endcomment %}
+    <nav class="nav-right">
+        <a class="underline{% if page.url == '/' %} active{% endif %}" href="{{ '/' | relative_url }}"><h2>About</h2></a>
+        <a class="underline{% if page.url contains '/experience/' %} active{% endif %}" href="{{ '/experience/' | relative_url }}"><h2>Experience</h2></a>
+        <a class="underline{% if page.url == '/projects/' %} active{% endif %}" href="{{ '/projects/' | relative_url }}"><h2>Projects</h2></a>
+        <a class="underline{% if page.url == '/media/' %} active{% endif %}" href="{{ '/media/' | relative_url }}"><h2>Media</h2></a>
+        <span class="nav-indicator" aria-hidden="true"></span>
+    </nav>
+</header>
