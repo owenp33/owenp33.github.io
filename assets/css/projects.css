@@ -1,15 +1,20 @@
 h3 {
     color: var(--text-primary);
-    text-decoration: underline;
-    font-size: 19px;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 24px 0 0;
+    text-decoration: underline dotted;
     text-decoration-thickness: 2px;
-    text-decoration-style: dotted;
-    margin: 16px 0;
+}
+
+h3:first-child {
+    margin-top: 0;
 }
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    /* 160px minimum, but always at least two per row on narrow screens */
+    grid-template-columns: repeat(auto-fill, minmax(min(160px, calc((100% - 16px) / 2)), 1fr));
     gap: 16px;
     margin-top: 12px;
     margin-bottom: 8px;
