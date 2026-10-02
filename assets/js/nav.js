@@ -56,8 +56,15 @@
     links.forEach(function (link) {
         link.addEventListener('click', function (event) {
             if (event.defaultPrevented || event.button !== 0 ||
-                event.metaKey || event.ctrlKey || event.shiftKey || event.altKey ||
-                link === pageLink || reduceMotion) {
+                event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+                return;
+            }
+            if (link.pathname === window.location.pathname) {
+                event.preventDefault();
+                window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' });
+                return;
+            }
+            if (link === pageLink || reduceMotion) {
                 return;
             }
             event.preventDefault();
