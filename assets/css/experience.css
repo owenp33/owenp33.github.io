@@ -1,8 +1,10 @@
 h3 {
     color: var(--text-primary);
-    font-weight: 450;
-    margin: 24px 0 12px;
-    font-size: 20px;
+    font-weight: 700;
+    margin: 24px 0 0;
+    font-size: 24px;
+    text-decoration: underline dotted;
+    text-decoration-thickness: 2px;
 }
 
 .top {
