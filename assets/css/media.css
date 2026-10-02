@@ -4,8 +4,10 @@
 
 .gallery h3 {
     color: var(--text-primary);
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: underline dotted;
+    text-decoration-thickness: 2px;
 }
 
 .gallery .top {
@@ -16,7 +18,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     gap: 12px;
-    margin-top: 16px;
+    margin-top: 12px;
 }
 
 .gallery-item {
