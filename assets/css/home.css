@@ -77,10 +77,8 @@ h4 {
 .teaser .project-grid,
 .teaser .gallery-grid {
     margin-top: 0;
-}
-
-.teaser .project-grid {
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 16px;
 }
 
 .see-more {
@@ -91,11 +89,6 @@ h4 {
 .see-more:hover {
     color: var(--accent-hover);
     transition: 0.3s;
-}
-
-.teaser-grid.gallery-grid {
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 260px;
 }
 
 @media (max-width: 900px) {

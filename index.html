@@ -45,9 +45,9 @@ scripts:
         <h3>Media</h3>
         <a class="see-more" href="{{ '/media/' | relative_url }}">See more photos &rarr;</a>
     </div>
-    <div class="teaser-grid gallery-grid">
-        {% assign preview_photos = site.data.media | slice: 0, 2 %}
-        {% for photo in preview_photos %}
+    <div class="gallery-grid">
+        {% assign featured_photos = site.data.media | where: 'featured', true %}
+        {% for photo in featured_photos %}
             {% include gallery-item.html photo=photo %}
         {% endfor %}
     </div>
