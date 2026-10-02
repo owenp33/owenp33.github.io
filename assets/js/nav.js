@@ -20,9 +20,16 @@
         var label = link.querySelector('h2') || link;
         var navRect = nav.getBoundingClientRect();
         var labelRect = label.getBoundingClientRect();
-        indicator.style.left = (labelRect.left - navRect.left) + 'px';
-        indicator.style.top = (labelRect.bottom - navRect.top) + 'px';
+        indicator.style.left = (labelRect.left - navRect.left + nav.scrollLeft) + 'px';
+        indicator.style.top = (labelRect.bottom - navRect.top + nav.scrollTop) + 'px';
         indicator.style.width = labelRect.width + 'px';
+    }
+
+    function revealActive() {
+        var link = nav.querySelector('.underline.active');
+        if (link) {
+            nav.scrollLeft = link.offsetLeft - (nav.clientWidth - link.offsetWidth) / 2;
+        }
     }
 
     function placeWithoutAnimation(link) {
@@ -36,10 +43,14 @@
         links.forEach(function (l) { l.classList.toggle('active', l === link); });
     }
 
+    revealActive();
     placeWithoutAnimation(pageLink);
 
     if (document.fonts && document.fonts.ready) {
-        document.fonts.ready.then(function () { placeWithoutAnimation(nav.querySelector('.underline.active')); });
+        document.fonts.ready.then(function () {
+            revealActive();
+            placeWithoutAnimation(nav.querySelector('.underline.active'));
+        });
     }
 
     window.addEventListener('resize', function () {
@@ -49,6 +60,7 @@
     window.addEventListener('pageshow', function (event) {
         if (event.persisted) {
             setActive(pageLink);
+            revealActive();
             placeWithoutAnimation(pageLink);
         }
     });
