@@ -1,3 +1,4 @@
-<div class="gallery-item">
-    <img src="{{ include.photo.image | relative_url }}" alt="{{ include.photo.alt }}">
-</div>
+{% assign photo_url = '/assets/images/gallery/' | append: include.photo.file | relative_url %}
+<a class="gallery-item" href="{{ photo_url }}">
+    <img src="{{ photo_url }}" alt="{{ include.photo.caption | escape }}">
+</a>

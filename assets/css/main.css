@@ -113,6 +113,15 @@ h2 {
 }
 
 .underline {
+    text-decoration: underline transparent;
+}
+
+.underline:hover {
+    text-decoration-color: var(--text-primary);
+    transition: .5s;
+}
+
+.nav-right .underline {
     display: inline-block;
     text-decoration: none;
     padding: 8px 14px;
@@ -125,12 +134,12 @@ h2 {
     text-decoration-color: var(--text-primary);
 }
 
-.underline:hover {
+.nav-right .underline:hover {
     background: var(--bg-panel);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
-.underline:hover h2 {
+.nav-right .underline:hover h2 {
     color: var(--accent-hover);
     transition: 0.3s;
 }
