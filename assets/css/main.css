@@ -179,7 +179,6 @@ main {
 
 .credit {
     color: var(--text-muted);
-    font-family: sans-serif, 'Times New Roman', Times, serif;
     font-size: 12px;
 }
 
@@ -208,9 +207,22 @@ footer {
 
 .footerLink {
     display: flex;
+    align-items: center;
     margin: 0 8px;
     color: var(--text-primary);
     text-decoration: underline transparent;
+}
+
+.footerLink h5 {
+    margin-top: 0;
+}
+
+.footIcon p {
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 h5 {
