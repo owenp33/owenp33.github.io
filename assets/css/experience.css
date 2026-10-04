@@ -140,6 +140,9 @@ h3 {
     color: var(--text-primary);
     font-size: 14px;
     font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .doc-card:hover .doc-title {
