@@ -91,7 +91,8 @@ h3 {
 
 .doc-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    /* same sizing as .project-grid in projects.css */
+    grid-template-columns: repeat(auto-fill, minmax(min(160px, calc((100% - 16px) / 2)), 1fr));
     gap: 16px;
     margin-top: 12px;
 }
