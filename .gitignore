@@ -1,5 +1,14 @@
+# Jekyll build output and caches (regenerated on every build)
 _site/
 .jekyll-cache/
+
+# Bundler. Gems live in the Docker volume, and GitHub Pages builds with its
+# own pinned versions, so the lockfile only matters locally.
 .bundle/
 vendor/
 Gemfile.lock
+
+# Files Windows and macOS create in folders (e.g. when browsing photos)
+Thumbs.db
+desktop.ini
+.DS_Store
